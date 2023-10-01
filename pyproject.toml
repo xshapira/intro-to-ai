@@ -6,6 +6,7 @@ authors = ["Admin <admin@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+cassandra-driver = "^3.28.0"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.0.291"
