@@ -13,7 +13,7 @@ openai = "^0.28.1"
 tiktoken = "^0.5.1"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.0.291"
+ruff = "^0.1.0"
 mypy = "^1.5.1"
 black = "^23.9.1"
 pre-commit = "^3.3.3"
