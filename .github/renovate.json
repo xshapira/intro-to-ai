@@ -1,31 +1,3 @@
 {
-  "extends": [
-    "config:base",
-    "schedule:daily",
-    ":disableDependencyDashboard",
-    ":enablePreCommit"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "automergeType": "pr",
-    "platformAutomerge": true
-  },
-  "platformAutomerge": true,
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["patch", "minor"],
-      "automergeType": "branch",
-      "platformAutomerge": true,
-      "automerge": true,
-      "commitMessage": "⬆ Bump {{depName}} from {{currentVersion}} to {{newVersion}}"
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "major": {
-        "automerge": false,
-        "dependencyDashboardApproval": true
-      }
-    }
-  ]
+  "extends": ["github>xshapira/renovate-config"]
 }
