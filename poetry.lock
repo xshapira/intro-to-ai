@@ -850,20 +850,20 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.109.1"
+version = "2.4.0"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "openai-1.109.1-py3-none-any.whl", hash = "sha256:6bcaf57086cf59159b8e27447e4e7dd019db5d29a438072fbd49c290c7e65315"},
-    {file = "openai-1.109.1.tar.gz", hash = "sha256:d173ed8dbca665892a6db099b4a2dfac624f94d20a93f46eb0b56aae940ed869"},
+    {file = "openai-2.4.0-py3-none-any.whl", hash = "sha256:5099f4fbfa80e7e5785ba52402c580eadba21e6172c85df05455676605ad150f"},
+    {file = "openai-2.4.0.tar.gz", hash = "sha256:97860859172b637ffb308433c207a371d4683586ed2b24b360cb4c08cf377d01"},
 ]
 
 [package.dependencies]
 anyio = ">=3.5.0,<5"
 distro = ">=1.7.0,<2"
 httpx = ">=0.23.0,<1"
-jiter = ">=0.4.0,<1"
+jiter = ">=0.10.0,<1"
 pydantic = ">=1.9.0,<3"
 sniffio = "*"
 tqdm = ">4"
@@ -1854,4 +1854,4 @@ cffi = ["cffi (>=1.17,<2.0)", "cffi (>=2.0.0b)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4259f8cebcf8aeee2fbb789e980022b3d611414f802cbdfe6a74e9654ff397d7"
+content-hash = "569a572d03c4c64d54d406e37f7de8b45d7e54b4eee7d65bd7fdf4b25864b36b"
